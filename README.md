@@ -1,1 +1,2 @@
 # Malaria-Incidences
+Design, implementation and testing of Python programs to process data files to allow for visualization and analysis of an open datases. Using open source data and python in order to visualize the data an help create an understnanding and insights into trends associated with the data. As well as compiling the data in a reasonable way that allows for an audience to read and understand the information being given
