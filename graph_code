@@ -1,0 +1,462 @@
+import matplotlib.pyplot as plt
+import csv
+# DATA SOURCE: https://data.worldbank.org/indicator/SH.MLR.INCD.P3
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[2]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2000')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[3]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2001')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[4]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2002')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[5]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2003')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[6]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2004')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[7]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2005')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[8]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2006')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[9]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2007')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[10]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2008')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[11]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2009')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[12]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2010')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[13]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2011')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[14]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2012')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[15]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2013')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[16]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2014')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[17]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2015')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[18]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2016')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[19]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2017')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[20]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2018')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[21]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2019')
+plt.legend()
+plt.show()
+
+
+################################################################################
+
+x = []
+y = []
+
+with open('Incidence of malaria (per 1,000 population at risk) by country.csv',
+          'r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+
+    for row in plots:
+        x.append(row[1])
+        y.append(float(row[22]))
+
+plt.bar(x, y, color='g', width=0.72, label="Cases of Malaria")
+plt.xticks(rotation=90, fontsize=5)
+plt.xlabel('Countries')
+plt.ylabel('Incidence of malaria (per 1,000 population at risk)')
+plt.title('Incidence of malaria by Country 2020')
+plt.legend()
+plt.show()
